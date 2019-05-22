@@ -4,7 +4,7 @@ using namespace std;
 class nonPerishableStock{
 
 };
-class accountant{
+class Accountant{
 
 
 };
@@ -20,8 +20,7 @@ class PerishablesStock{
     public:
       int choice = 0;
 
-      firstmessage(){
-        cout << "Choose a function by entering a number:";
+      firstmessage(){//ouputs a prompt to help the user decide what experience that they want.        cout << "Choose a function by entering a number:";
         cout << "\n1) Perishables";
         cout << "\n2) Nonperishables";
         cout << "\n3) Perishables and Nonperishables" << endl;
@@ -36,8 +35,7 @@ class PerishablesStock{
         cin  >> choice;
       };
 
-      thirdmessage(){
-        cout << "Choose a function to contiune by entering a number:";
+      thirdmessage(){//ouputs a prompt to help the user decide what experience that they want.        cout << "Choose a function to contiune by entering a number:";
         cout << "\n1) Nonperishables in stock";
         cout << "\n2) Nonperishables missing";
         cout << "\n3) Both" << endl;
